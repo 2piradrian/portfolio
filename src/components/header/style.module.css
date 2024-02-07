@@ -12,7 +12,7 @@
 }
 
 .subcontainer {
-	height: 45px;
+	height: 40px;
 	width: var(--container-width);
 	max-width: var(--max-width);
 	margin: 20px 0px;
