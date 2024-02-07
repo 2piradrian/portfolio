@@ -1,0 +1,15 @@
+.container {
+	height: auto;
+	width: var(--container-width);
+	max-width: var(--max-width);
+	margin-top: 120px;
+
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+
+.name {
+	font-size: 46px;
+	color: var(--contrast);
+}

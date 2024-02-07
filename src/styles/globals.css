@@ -8,23 +8,14 @@
 	font-family: "Roboto Mono", monospace;
 }
 
-html,
-body {
+main {
+	width: 100vw;
 	max-width: 100vw;
-	overflow-x: hidden;
-	background-color: var(--background);
-}
 
-html {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-}
-
-body {
-	max-width: var(--max-width);
-	position: relative;
 }
 
 a {
