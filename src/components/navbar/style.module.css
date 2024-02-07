@@ -20,6 +20,7 @@
 
 .navRoutes > a:hover {
 	font-weight: 600;
+	color: var(--main);
 }
 
 .navRoutes > a {
