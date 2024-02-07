@@ -37,3 +37,10 @@
 	font-size: 22px;
 	text-decoration: underline;
 }
+
+.me {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	object-fit: cover;
+}

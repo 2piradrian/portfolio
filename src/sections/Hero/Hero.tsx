@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import me from "../../assets/page/me.svg";
+import me from "../../assets/page/me.jpg";
 import world from "../../assets/page/world.svg";
 import style from "./style.module.css";
 
 export default function Hero() {
 	return (
 		<div className={style.container}>
-			<Image src={me} alt="Me" />
+			<Image src={me} alt="Me" className={style.me} />
 			<h1 className={style.name}>Adrián Rodriguez</h1>
 			<p className={style.about}>Desarrollador Full Stack, y estudiante de ingeniería.</p>
 			<div className={style.location}>
