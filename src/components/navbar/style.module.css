@@ -1,0 +1,29 @@
+.navList {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.navRoutes {
+	width: 100%;
+	margin: 15px 0px;
+	text-align: center;
+	list-style: none;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.navRoutes > a:hover {
+	font-weight: 600;
+}
+
+.navRoutes > a {
+	text-decoration: none;
+	font-size: 16px;
+	color: var(--tertiary);
+}
