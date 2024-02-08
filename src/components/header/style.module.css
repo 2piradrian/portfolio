@@ -9,6 +9,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	z-index: 99;
 }
 
 .subcontainer {
@@ -24,5 +25,5 @@
 
 	background: var(--surface);
 	box-shadow: 3px 3px 5px -2px rgba(22, 22, 26, 0.3);
-	z-index: 2;
+	z-index: 99;
 }
