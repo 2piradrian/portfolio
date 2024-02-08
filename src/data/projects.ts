@@ -29,7 +29,7 @@ const getImagePath = (folder: string, img: string) => {
 	return require(`../assets/projects/${folder}/${img}`).default;
 };
 
-export const projectsArray: Project[] = [
+export const projects: Project[] = [
 	{
 		id: 0,
 		img: getImagePath("ads", "ads.jpg"),
