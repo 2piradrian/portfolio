@@ -3,8 +3,9 @@
 	--secondary: #77574c;
 	--tertiary: #393005;
 	--background: #fff;
-	--surface: #e0dddc;
+	--surface: #e0dddc80;
 	--contrast: #201a18;
+	--shadow: #201a183b;
 
 	--max-width: 1200px;
 	--container-width: 85%;

@@ -7,7 +7,7 @@ import style from "./style.module.css";
 
 export default function Hero() {
 	return (
-		<div className={style.container}>
+		<section className="container">
 			<Image src={me} alt="Me" className={style.me} />
 			<h1 className={style.name}>Adrián Rodriguez</h1>
 			<p className={style.about}>Desarrollador Full Stack, y estudiante de ingeniería.</p>
@@ -19,6 +19,6 @@ export default function Hero() {
 				<Link href="mailto:rodriguezcadr@gmail.com">Contáctame</Link>
 				<Link href="https://www.linkedin.com/in/rodriguezcadr/">Linkedin</Link>
 			</div>
-		</div>
+		</section>
 	);
 }
