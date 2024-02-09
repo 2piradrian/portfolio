@@ -5,7 +5,7 @@ import ProjectCard from "@/components/project-card/ProjectCard";
 
 export default function Projects() {
 	return (
-		<section className="container">
+		<section className="container" id="projects">
 			<Title text="Proyectos" />
 			<div className={style.projectContainer}>
 				{projects.map((project) => (

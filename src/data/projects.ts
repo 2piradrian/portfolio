@@ -53,12 +53,22 @@ export const projects: Project[] = [
 			elements: [
 				{
 					type: "title",
-					content: "El Proyecto",
+					content: "Notas",
 				},
 				{
 					type: "text",
 					content:
-						"Debido a que es un proyecto en desarrollo para ser comercializado, no se puede mostrar el código. Pero se puede ver el progreso en el instagram del proyecto.",
+						"Debido a que es un proyecto en desarrollo para ser comercializado, no se puede mostrar el código.",
+				},
+				{
+					type: "text",
+					content:
+						"En el proyecto tengo un socio, con el cual abrimos una S.A.S., sin embargo el es contador, por lo que yo me encargue de absolutamente todo lo técnico, diseño y desarrollo, mientras que el se encarga de la parte legal y financiera.",
+				},
+				{
+					type: "text",
+					content:
+						"Actualmente tengo hecho el backend y la app con patrón repositorio y clean architecture.",
 				},
 				{
 					type: "title",
@@ -67,7 +77,7 @@ export const projects: Project[] = [
 				{
 					type: "text",
 					content:
-						"El proyecto me llevo de la mano, y me hizo enfrentarme a varios desafíos. Como por ejemplo programar el protocolo de comunicación para el bluetooth, el manejo eficiente de websockets, o la odisea de subir la app a la Google Play Store.",
+						"El proyecto me llevo de la mano, y me hizo enfrentarme a varios desafíos. Como por ejemplo programar la comunicación bluetooth, comunicaciones tcp, el manejo eficiente de websockets, o la odisea de subir la app a la Google Play Store.",
 				},
 				{
 					type: "title",
@@ -102,7 +112,7 @@ export const projects: Project[] = [
 	},
 	{
 		id: 1,
-		img: getImagePath("recipes", "recipes.png"),
+		img: [getImagePath("recipes", "recipes.png"), getImagePath("recipes", "recipes.jpg")],
 		title: "Recipes Team",
 		description: "Web-app colaborativa de recetas",
 		link: "/project/1",
@@ -136,7 +146,7 @@ export const projects: Project[] = [
 			elements: [
 				{
 					type: "title",
-					content: "El Proyecto",
+					content: "Notas",
 				},
 				{
 					type: "text",
@@ -144,13 +154,14 @@ export const projects: Project[] = [
 						"El proyecto fue presentado como trabajo final en el Bootcamp que realicé. Es uno de mis favoritos.",
 				},
 				{
-					type: "title",
-					content: "Aprendizaje",
+					type: "text",
+					content:
+						"El proyecto fue realizado en dos versiones, una con Firebase, y otra con NodeJS, Express y MongoDB.",
 				},
 				{
 					type: "text",
 					content:
-						"En un principio, el proyecto fue realizado con Firebase. Pero luego, decidí hacerlo con NodeJS, Express y MongoDB, para aprender a hacer un backend desde cero.",
+						"Como importante, el backend de la versión FullStack tarda en cargar, ya que está en un hosting gratuito. Tenle paciencia.",
 				},
 				{
 					type: "title",
@@ -161,12 +172,17 @@ export const projects: Project[] = [
 					content:
 						"Me gustaría seguir mejorando el proyecto, agregando funcionalidades. Cuando sea posible, me gustaría convertirla en una aplicación real, ya que aunque ahora mismo es funcional, aún le faltan detalles de diseño y usabilidad.",
 				},
+				{
+					type: "text",
+					content:
+						"Además me gustaría cambiar la arquitectura del backend y del frontend, son proyectos que hice cuando comenzaba, por lo que no he usado adaptadores para las librerías. ",
+				},
 			],
 		},
 	},
 	{
 		id: 2,
-		img: getImagePath("siete", "siete.png"),
+		img: [getImagePath("siete", "siete.png"), getImagePath("siete", "siete.jpg")],
 		title: "Siete colores",
 		description: "E-commerce proyecto familiar.",
 		link: "/project/2",
@@ -179,10 +195,6 @@ export const projects: Project[] = [
 			{
 				url: "https://sietecolores3d.com.ar",
 				reference: "Web",
-			},
-			{
-				url: "https://siete-colores.vercel.app/",
-				reference: "Web Demo (Firebase | Vercel)",
 			},
 		],
 		structure: {
@@ -204,7 +216,7 @@ export const projects: Project[] = [
 				{
 					type: "text",
 					content:
-						"El proyecto fue ideado principalmente para funcionar con firebase. Esa es la versión de la rama master, sin embargo la que está en producción es una que simplemente lee los datos de un JSON, porque era mas sencillo para el cliente convertir su excel en este tipo de datos. Se puede encontrar en la rama `just-json`",
+						"El proyecto fue ideado principalmente para funcionar con firebase, esa es la versión de la rama master, sin embargo la que está en producción es una que simplemente lee los datos de un JSON, porque era mas sencillo para el cliente convertir su excel en este tipo de datos. Se puede encontrar en la rama `just-json`",
 				},
 				{
 					type: "title",
@@ -212,15 +224,14 @@ export const projects: Project[] = [
 				},
 				{
 					type: "text",
-					content:
-						"El proyecto fue realizado en un principio con ReactJS, pero luego fue migrado a ReactTS, para aprender a trabajar con Typescript. Además fue la primera web que subí a producción en un hosting",
+					content: "Fue la primera web que subí a producción en un hosting",
 				},
 			],
 		},
 	},
 	{
 		id: 3,
-		img: getImagePath("sietesys", "siete-sys.png"),
+		img: [getImagePath("sietesys", "siete-sys.png"), getImagePath("sietesys", "siete-sys.jpg")],
 		title: "Sistema de Información",
 		description: "C.R.U.D. de presupuestos y stock",
 		link: "/project/3",

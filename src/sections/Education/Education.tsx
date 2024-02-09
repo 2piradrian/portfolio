@@ -5,7 +5,7 @@ import EducationItem from "@/components/education-item/EducationItem";
 
 export default function Education() {
 	return (
-		<section className="container">
+		<section className="container" id="education">
 			<Title text="Educación" />
 			<div className={style.educationContainer}>
 				{education.map((item) => (

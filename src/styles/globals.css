@@ -46,7 +46,7 @@ a {
 	height: auto;
 	width: var(--container-width);
 	max-width: var(--max-width);
-	margin-top: 120px;
+	padding-top: 120px;
 
 	display: flex;
 	flex-direction: column;
