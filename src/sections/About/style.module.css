@@ -1,0 +1,10 @@
+.textContainer {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.textContainer p {
+	font-size: 18px;
+}
