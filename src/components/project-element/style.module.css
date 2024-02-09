@@ -15,6 +15,9 @@
 
 .title {
 	margin: 20px 0px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: var(--surface);
 }
 
 .text {
