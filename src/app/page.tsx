@@ -1,4 +1,5 @@
 import About from "@/sections/About/About";
+import Contact from "@/sections/Contact/Contact";
 import Education from "@/sections/Education/Education";
 import Hero from "@/sections/Hero/Hero";
 import Projects from "@/sections/Projects/Projects";
@@ -12,6 +13,7 @@ export default function Home() {
 			<Projects />
 			<Education />
 			<About />
+			<Contact />
 		</main>
 	);
 }

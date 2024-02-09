@@ -1,0 +1,14 @@
+.subcontainer {
+	width: 100%;
+	margin-bottom: 50px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.subcontainer img {
+	height: 100px;
+	width: auto;
+	margin: 10px;
+}

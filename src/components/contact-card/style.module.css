@@ -1,0 +1,40 @@
+.container {
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	transition: all 0.5s ease-out;
+}
+
+.container:hover .text {
+	opacity: 1;
+	top: 0px;
+}
+
+.text {
+	padding: 4px 14px;
+	border-radius: 10px;
+	text-align: center;
+	position: relative;
+	top: -40px;
+	font-weight: 600;
+	font-size: 18px;
+	color: var(--background);
+	background-color: var(--contrast);
+	z-index: 0;
+	opacity: 0;
+	transition: all 0.3s ease-in-out;
+}
+
+.text::before {
+	content: "";
+	position: absolute;
+	left: calc(50% - 8px);
+	width: 16px;
+	height: 16px;
+	top: -8px;
+	background-color: var(--contrast);
+	transform: rotate(45deg);
+}
