@@ -32,7 +32,7 @@ const getImagePath = (folder: string, img: string) => {
 export const projects: Project[] = [
 	{
 		id: 0,
-		img: getImagePath("ads", "ads.jpg"),
+		img: getImagePath("ads", "ads.png"),
 		title: "Ayudante de Santa",
 		description: "Sistema de cultivos automatizados",
 		link: `/project/0`,
@@ -102,7 +102,7 @@ export const projects: Project[] = [
 	},
 	{
 		id: 1,
-		img: getImagePath("recipes", "recipes.jpg"),
+		img: getImagePath("recipes", "recipes.png"),
 		title: "Recipes Team",
 		description: "Web-app colaborativa de recetas",
 		link: "/project/1",
@@ -166,7 +166,7 @@ export const projects: Project[] = [
 	},
 	{
 		id: 2,
-		img: getImagePath("siete", "siete.jpg"),
+		img: getImagePath("siete", "siete.png"),
 		title: "Siete colores",
 		description: "E-commerce proyecto familiar.",
 		link: "/project/2",
@@ -220,7 +220,7 @@ export const projects: Project[] = [
 	},
 	{
 		id: 3,
-		img: getImagePath("sietesys", "siete-sys.jpg"),
+		img: getImagePath("sietesys", "siete-sys.png"),
 		title: "Sistema de Información",
 		description: "C.R.U.D. de presupuestos y stock",
 		link: "/project/3",

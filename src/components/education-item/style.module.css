@@ -1,7 +1,11 @@
 .container {
 	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
 	display: flex;
 	flex-direction: column;
+	gap: 10px;
+	background-color: var(--surface);
 }
 
 .container > h3 {
