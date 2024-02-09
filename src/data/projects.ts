@@ -1,6 +1,6 @@
 export type Project = {
 	id: number;
-	img: string;
+	img: string[];
 	title: string;
 	description: string;
 	link: string;
@@ -32,7 +32,7 @@ const getImagePath = (folder: string, img: string) => {
 export const projects: Project[] = [
 	{
 		id: 0,
-		img: getImagePath("ads", "ads.png"),
+		img: [getImagePath("ads", "ads.png"), getImagePath("ads", "ads.jpg")],
 		title: "Ayudante de Santa",
 		description: "Sistema de cultivos automatizados",
 		link: `/project/0`,

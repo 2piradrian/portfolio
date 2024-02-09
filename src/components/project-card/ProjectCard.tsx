@@ -8,7 +8,7 @@ export default function ProjectCard({ title, description, img, techs, link }: Pr
 	return (
 		<Link href={link} aria-label="go to the project" className={style.anchor}>
 			<div className={style.container}>
-				<Image src={img} alt={title} className={style.image} />
+				<Image src={img[0]} alt={title} className={style.image} />
 				<div className={style.info}>
 					<div className={style.titleContainer}>
 						<h3 className={style.title}>{title}</h3>
