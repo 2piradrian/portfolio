@@ -8,6 +8,11 @@
 	font-family: "Roboto Mono", monospace;
 }
 
+html,
+body {
+	overflow-x: hidden;
+}
+
 body {
 	position: relative;
 }
