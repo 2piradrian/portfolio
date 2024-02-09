@@ -4,11 +4,22 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items: center;
+	align-items: flex-start;
 }
 
 .subcontainer img {
 	height: 100px;
 	width: auto;
 	margin: 10px;
+}
+
+@media screen and (max-width: 575px) {
+	.subcontainer {
+		gap: 55px;
+	}
+
+	.subcontainer img {
+		height: 180px;
+		width: auto;
+	}
 }
