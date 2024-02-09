@@ -60,3 +60,43 @@
 	color: var(--contrast);
 	text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 280px;
+	}
+
+	.title {
+		font-size: 18px;
+	}
+
+	.description {
+		font-size: 15px;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.container {
+		width: 260px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: 350px;
+	}
+
+	.title {
+		font-size: 22px;
+	}
+
+	.description {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	.container {
+		width: 300px;
+	}
+}
