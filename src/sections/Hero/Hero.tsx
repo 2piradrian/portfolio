@@ -10,7 +10,7 @@ export default function Hero() {
 		<section className="container">
 			<Image src={me} alt="Me" className={style.me} />
 			<h1 className={style.name}>Adrián Rodriguez</h1>
-			<p className={style.about}>Desarrollador Full Stack, y estudiante de ingeniería.</p>
+			<p className={style.about}>Desarrollador Full Stack y estudiante de ingeniería.</p>
 			<div className={style.location}>
 				<Image src={world} alt="World" />
 				<p>Córdoba, Argentina.</p>
