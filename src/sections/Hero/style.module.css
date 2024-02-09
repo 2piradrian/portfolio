@@ -44,3 +44,26 @@
 	border-radius: 20%;
 	object-fit: cover;
 }
+
+@media screen and (max-width: 768px) {
+	.name {
+		font-size: 36px;
+	}
+
+	.about {
+		font-size: 20px;
+	}
+
+	.location {
+		font-size: 16px;
+	}
+
+	.contact {
+		font-size: 20px;
+	}
+
+	.me {
+		width: 150px;
+		height: 150px;
+	}
+}
