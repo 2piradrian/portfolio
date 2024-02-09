@@ -18,6 +18,7 @@ export default function Hero() {
 			<div className={style.contact}>
 				<Link href="mailto:rodriguezcadr@gmail.com">Contáctame</Link>
 				<Link href="https://www.linkedin.com/in/rodriguezcadr/">Linkedin</Link>
+				<Link href="https://github.com/2piradrian">Github</Link>
 			</div>
 		</section>
 	);
