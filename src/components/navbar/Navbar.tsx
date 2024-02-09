@@ -6,7 +6,6 @@ export default function Navbar() {
 		<div>
 			<ul className={style.navList}>
 				<NavItem href="/#projects" arialabel="Proyectos" title="Proyectos" />
-				<NavItem href="/#skills" arialabel="Habilidades" title="Habilidades" />
 				<NavItem href="/#education" arialabel="Educación" title="Educación" />
 				<NavItem href="/#contact" arialabel="Contacto" title="Contacto" />
 			</ul>
