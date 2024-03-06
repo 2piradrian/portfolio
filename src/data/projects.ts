@@ -129,7 +129,69 @@ export const projects: Project[] = [
 		],
 		structure: {
 			longDescription: "Red social con temática de plantas, con funcionalidades de CRUD.",
-			elements: [],
+			elements: [
+				{
+					type: "title",
+					content: "Notas",
+				},
+				{
+					type: "text",
+					content:
+						"Es una especie de red social, apenas es un MVP pues me encantaría agregarle más funciones. Pero por ahora tiene un CRUD de plantas y de usuarios, y un sistema de likes y seguidos.",
+				},
+				{
+					type: "text",
+					content:
+						"Tanto el backend como el frontend fueron diseñados usando clean architecture y patrón repositorio.",
+				},
+				{
+					type: "title",
+					content: "El backend",
+				},
+				{
+					type: "text",
+					content:
+						"Del lado del servidor, tengo un backend hecho en Node.js (Express) que utiliza dos bases de datos.",
+				},
+				{
+					type: "text",
+					content:
+						"Esto surge de tomar el desafío que alguna vez un profesor de Spring Boot me dió: usar dos bases de datos en un solo backend, para esto usé MongoDB para la información de los usuarios y PostgreSQL para los posteos.",
+				},
+				{
+					type: "title",
+					content: "El frontend",
+				},
+				{
+					type: "text",
+					content:
+						"Del lado del usuario, cuento con una app en Android Nativo hecha con Kotlin (Jetpack Compose), aprovechando y siguiendo los lineamientos de Google para hacer un diseño adaptativo, es decir, esta app es compatible con dispositivos plegables y tablets.",
+				},
+				{
+					type: "title",
+					content: "Diseño mobile",
+				},
+				{
+					type: "image",
+					content: getImagePath("botanist", "app (3).png"),
+				},
+				{
+					type: "title",
+					content: "Diseño foldable",
+				},
+				{
+					type: "image",
+					content: getImagePath("botanist", "app (1).png"),
+				},
+				{
+					type: "title",
+					content: "Diseño tablets",
+				},
+				{
+					type: "image",
+					content: getImagePath("botanist", "app (2).png"),
+				},
+			],
 		},
 	},
 	{
