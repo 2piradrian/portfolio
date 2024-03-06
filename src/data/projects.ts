@@ -112,10 +112,32 @@ export const projects: Project[] = [
 	},
 	{
 		id: 1,
+		img: [getImagePath("botanist", "botanist.png"), getImagePath("botanist", "botanist.jpg")],
+		title: "Botanist",
+		description: "Red social de plantas",
+		link: "/project/1",
+		techs: ["KOTLIN", "COMPOSE", "TS", "REACT", "NODEJS", "EXPRESS", "MONGODB", "SQL"],
+		links: [
+			{
+				url: "https://github.com/2piradrian/botanist-app",
+				reference: "Repositorio App",
+			},
+			{
+				url: "https://github.com/2piradrian/botanist-backend",
+				reference: "Repositorio Backend",
+			},
+		],
+		structure: {
+			longDescription: "Red social con temática de plantas, con funcionalidades de CRUD.",
+			elements: [],
+		},
+	},
+	{
+		id: 2,
 		img: [getImagePath("recipes", "recipes.png"), getImagePath("recipes", "recipes.jpg")],
 		title: "Recipes Team",
 		description: "Web-app colaborativa de recetas",
-		link: "/project/1",
+		link: "/project/2",
 		techs: ["TS", "REACT", "REDUX", "FIREBASE", "NODEJS", "EXPRESS", "MONGODB"],
 		links: [
 			{
@@ -181,11 +203,11 @@ export const projects: Project[] = [
 		},
 	},
 	{
-		id: 2,
+		id: 3,
 		img: [getImagePath("siete", "siete.png"), getImagePath("siete", "siete.jpg")],
 		title: "Siete colores",
 		description: "E-commerce proyecto familiar.",
-		link: "/project/2",
+		link: "/project/3",
 		techs: ["TS", "REACT", "REDUX", "FIREBASE"],
 		links: [
 			{
@@ -230,11 +252,11 @@ export const projects: Project[] = [
 		},
 	},
 	{
-		id: 3,
+		id: 4,
 		img: [getImagePath("sietesys", "siete-sys.png"), getImagePath("sietesys", "siete-sys.jpg")],
 		title: "Sistema de Información",
 		description: "C.R.U.D. de presupuestos y stock",
-		link: "/project/3",
+		link: "/project/4",
 		techs: ["TS", "REACT", "NODEJS", "EXPRESS", "MONGODB"],
 		links: [
 			{
