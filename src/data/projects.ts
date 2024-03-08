@@ -116,7 +116,7 @@ export const projects: Project[] = [
 		title: "Botanist",
 		description: "Red social de plantas",
 		link: "/project/1",
-		techs: ["KOTLIN", "COMPOSE", "TS", "REACT", "NODEJS", "EXPRESS", "MONGODB", "SQL"],
+		techs: ["KOTLIN", "COMPOSE", "TS", "NODEJS", "EXPRESS", "MONGODB", "SQL"],
 		links: [
 			{
 				url: "https://github.com/2piradrian/botanist-app",
