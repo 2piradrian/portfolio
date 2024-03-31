@@ -266,11 +266,49 @@ export const projects: Project[] = [
 	},
 	{
 		id: 3,
+		img: [getImagePath("sietesys", "siete-sys.png"), getImagePath("sietesys", "siete-sys.jpg")],
+		title: "Sistema de Información",
+		description: "C.R.U.D. de presupuestos y stock",
+		link: "/project/4",
+		techs: ["TS", "REACT", "NODEJS", "EXPRESS", "MONGODB"],
+		links: [
+			{
+				url: "https://github.com/2piradrian/siete-colores-sys",
+				reference: "Github",
+			},
+		],
+		structure: {
+			longDescription:
+				"Sistema para generar presupuestos y controlar stock para proyecto familiar de producción de objetos 3d.",
+			elements: [
+				{
+					type: "title",
+					content: "El Proyecto",
+				},
+				{
+					type: "text",
+					content:
+						"Este proyecto fue realizado para un familiar. Quería aplicar lo que estaba viendo en Ingeniería en Sistemas de Información, y me pareció una buena oportunidad para hacerlo.",
+				},
+				{
+					type: "title",
+					content: "Aprendizaje",
+				},
+				{
+					type: "text",
+					content:
+						"Este proyecto se ejecuta a través de un .exe, fue muy satisfactorio poder hacerlo. Además imprime los presupuestos en un formato personalizado, y genera un PDF con el presupuesto y el stock actualizado.",
+				},
+			],
+		},
+	},
+	{
+		id: 4,
 		img: [getImagePath("siete", "siete.png"), getImagePath("siete", "siete.jpg")],
 		title: "Siete colores",
 		description: "E-commerce proyecto familiar.",
 		link: "/project/3",
-		techs: ["TS", "REACT", "REDUX", "FIREBASE"],
+		techs: ["TS", "REACT"],
 		links: [
 			{
 				url: "https://github.com/2piradrian/siete-colores-web",
@@ -300,7 +338,7 @@ export const projects: Project[] = [
 				{
 					type: "text",
 					content:
-						"El proyecto fue ideado principalmente para funcionar con firebase, esa es la versión de la rama master, sin embargo la que está en producción es una que simplemente lee los datos de un JSON, porque era mas sencillo para el cliente convertir su excel en este tipo de datos. Se puede encontrar en la rama `just-json`",
+						"El proyecto fue ideado principalmente para funcionar con firebase, sin embargo la que está en producción es una que simplemente lee los datos de un JSON, porque era mas sencillo para el cliente convertir su excel en este tipo de datos.",
 				},
 				{
 					type: "title",
@@ -309,44 +347,6 @@ export const projects: Project[] = [
 				{
 					type: "text",
 					content: "Fue la primera web que subí a producción en un hosting",
-				},
-			],
-		},
-	},
-	{
-		id: 4,
-		img: [getImagePath("sietesys", "siete-sys.png"), getImagePath("sietesys", "siete-sys.jpg")],
-		title: "Sistema de Información",
-		description: "C.R.U.D. de presupuestos y stock",
-		link: "/project/4",
-		techs: ["TS", "REACT", "NODEJS", "EXPRESS", "MONGODB"],
-		links: [
-			{
-				url: "https://github.com/2piradrian/sietecolores-sys",
-				reference: "Github",
-			},
-		],
-		structure: {
-			longDescription:
-				"Sistema para generar presupuestos y controlar stock para proyecto familiar de producción de objetos 3d.",
-			elements: [
-				{
-					type: "title",
-					content: "El Proyecto",
-				},
-				{
-					type: "text",
-					content:
-						"Este proyecto fue realizado para un familiar. Quería aplicar lo que estaba viendo en Ingeniería en Sistemas de Información, y me pareció una buena oportunidad para hacerlo.",
-				},
-				{
-					type: "title",
-					content: "Aprendizaje",
-				},
-				{
-					type: "text",
-					content:
-						"Este proyecto se ejecuta a través de un .exe, fue muy satisfactorio poder hacerlo. Además imprime los presupuestos en un formato personalizado, y genera un PDF con el presupuesto y el stock actualizado.",
 				},
 			],
 		},
