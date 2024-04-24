@@ -274,8 +274,12 @@ export const projects: Project[] = [
 		links: [
 			{
 				url: "https://github.com/2piradrian/siete-colores-sys",
-				reference: "Github",
+				reference: "Github (Frontend)",
 			},
+			{
+				url: "https://github.com/2piradrian/siete-colores-backend",
+				reference: "Github (Backend)",
+			}
 		],
 		structure: {
 			longDescription:
