@@ -203,25 +203,12 @@ export const projects: Project[] = [
 		techs: ["TS", "REACT", "REDUX", "FIREBASE", "NODEJS", "EXPRESS", "MONGODB"],
 		links: [
 			{
-				url: "https://recipes-frontend-ts.vercel.app",
-				reference: "Web App (FullStack)",
-			},
-			{
 				url: "https://github.com/2piradrian/recipes-frontend-ts",
 				reference: "Repositorio FullStack Frontend",
 			},
 			{
 				url: "https://github.com/2piradrian/recipes-backend-ts",
 				reference: "Repositorio FullStack Backend",
-			},
-
-			{
-				url: "https://recipes-web-ruddy.vercel.app",
-				reference: "Web App (Firebase)",
-			},
-			{
-				url: "https://github.com/2piradrian/recipes-web",
-				reference: "Repositorio Firebase",
 			},
 		],
 		structure: {
@@ -243,11 +230,6 @@ export const projects: Project[] = [
 						"El proyecto fue realizado en dos versiones, una con Firebase, y otra con NodeJS, Express y MongoDB.",
 				},
 				{
-					type: "text",
-					content:
-						"Como importante, el backend de la versión FullStack tarda en cargar, ya que está en un hosting gratuito. Tenle paciencia.",
-				},
-				{
 					type: "title",
 					content: "El futuro",
 				},
@@ -259,7 +241,7 @@ export const projects: Project[] = [
 				{
 					type: "text",
 					content:
-						"Además me gustaría cambiar la arquitectura del backend y del frontend, son proyectos que hice cuando comenzaba, por lo que no he usado adaptadores para las librerías. ",
+						"Además me gustaría cambiar la arquitectura del backend y del frontend, son proyectos que hice cuando comenzaba.",
 				},
 			],
 		},
