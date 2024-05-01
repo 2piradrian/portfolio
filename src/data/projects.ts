@@ -195,62 +195,10 @@ export const projects: Project[] = [
 		},
 	},
 	{
-		id: 2,
-		img: [getImagePath("recipes", "recipes.png"), getImagePath("recipes", "recipes.jpg")],
-		title: "Recipes Team",
-		description: "Web-app colaborativa de recetas",
-		link: "/project/2",
-		techs: ["TS", "REACT", "REDUX", "FIREBASE", "NODEJS", "EXPRESS", "MONGODB"],
-		links: [
-			{
-				url: "https://github.com/2piradrian/recipes-frontend-ts",
-				reference: "Repositorio FullStack Frontend",
-			},
-			{
-				url: "https://github.com/2piradrian/recipes-backend-ts",
-				reference: "Repositorio FullStack Backend",
-			},
-		],
-		structure: {
-			longDescription:
-				"Web-app colaborativa de recetas, con versiones de frontend y backend con Firebase, y con NodeJS, Express y MongoDB.",
-			elements: [
-				{
-					type: "title",
-					content: "Notas",
-				},
-				{
-					type: "text",
-					content:
-						"El proyecto fue presentado como trabajo final en el Bootcamp que realicé. Es uno de mis favoritos.",
-				},
-				{
-					type: "text",
-					content:
-						"El proyecto fue realizado en dos versiones, una con Firebase, y otra con NodeJS, Express y MongoDB.",
-				},
-				{
-					type: "title",
-					content: "El futuro",
-				},
-				{
-					type: "text",
-					content:
-						"Me gustaría seguir mejorando el proyecto, agregando funcionalidades. Cuando sea posible, me gustaría convertirla en una aplicación real, ya que aunque ahora mismo es funcional, aún le faltan detalles de diseño y usabilidad.",
-				},
-				{
-					type: "text",
-					content:
-						"Además me gustaría cambiar la arquitectura del backend y del frontend, son proyectos que hice cuando comenzaba.",
-				},
-			],
-		},
-	},
-	{
 		id: 3,
 		img: [getImagePath("sietesys", "siete-sys.png"), getImagePath("sietesys", "siete-sys.jpg")],
-		title: "Sistema de Información",
-		description: "C.R.U.D. de presupuestos y stock",
+		title: "Sistema Siete Colores",
+		description: "Sistema presupuestos y stock",
 		link: "/project/3",
 		techs: ["TS", "REACT", "NODEJS", "EXPRESS", "MONGODB"],
 		links: [
