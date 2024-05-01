@@ -195,11 +195,11 @@ export const projects: Project[] = [
 		},
 	},
 	{
-		id: 3,
+		id: 2,
 		img: [getImagePath("sietesys", "siete-sys.png"), getImagePath("sietesys", "siete-sys.jpg")],
 		title: "Sistema Siete Colores",
 		description: "Sistema presupuestos y stock",
-		link: "/project/3",
+		link: "/project/2",
 		techs: ["TS", "REACT", "NODEJS", "EXPRESS", "MONGODB"],
 		links: [
 			{
@@ -237,11 +237,11 @@ export const projects: Project[] = [
 		},
 	},
 	{
-		id: 4,
+		id: 3,
 		img: [getImagePath("siete", "siete.png"), getImagePath("siete", "siete.jpg")],
 		title: "Siete colores",
 		description: "E-commerce proyecto familiar.",
-		link: "/project/4",
+		link: "/project/3",
 		techs: ["TS", "REACT"],
 		links: [
 			{
