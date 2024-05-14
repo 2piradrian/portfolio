@@ -20,11 +20,11 @@ export default function About() {
 				</p>
 				<p>
 					En mis tiempos libres, me gusta jugar videojuegos, aunque a lo que más tiempo le
-					dedico es a la música. Toco la guitarra y estoy aprendiendo a tocar el piano
-					(soy malísimo cantando, pero me divierto).
+					dedico es a la música. Toco la guitarra y estoy aprendiendo a tocar el piano.
 				</p>
 				<p>
-					Fun fact: Mi nombre de github viene por mi gusto por las matemáticas. Una unidad
+					<span>Fun fact: </span> 
+					Mi nombre de github viene por mi gusto por las matemáticas. Una unidad
 					para medir ángulos es el radian, y el parecido con mi nombre Adrián, termino
 					formando 2piradrian. Que casualmente, la R que le falta a radian para formar
 					Adrián es la inicial de mi apellido.
