@@ -63,7 +63,7 @@ export const projects: Project[] = [
 				{
 					type: "text",
 					content:
-						"En el proyecto tengo un socio, con el cual abrimos una S.A.S., sin embargo el es contador, por lo que yo me encargue de absolutamente todo lo técnico, diseño y desarrollo, mientras que el se encarga de la parte legal y financiera.",
+						"En el proyecto tengo un socio, contador, con el cual abrimos una S.A.S., mientras que el se encarga de la parte legal y financiera, yo me encargo del desarrollo, y ambos trabajamos a la vez en la parte técnica física (soldadura, armado, empaquetado, etc.).",
 				},
 				{
 					type: "text",
