@@ -1,8 +1,8 @@
+import { Project } from "@/types/types";
 import Title from "@/components/title/Title";
 import ProjectCard from "@/components/project-card/ProjectCard";
-import style from "./style.module.css";
 import projects from "@/public/data/projects.json"
-import { Project } from "@/types/types";
+import style from "./style.module.css";
 
 export default function Projects() {
 	return (
