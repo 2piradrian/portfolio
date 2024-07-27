@@ -23,3 +23,10 @@ export type Link = {
 	url: string;
 	name: string;
 };
+
+export type Education = {
+	id: number;
+	name: string;
+	institution: string;
+	date: string;
+};

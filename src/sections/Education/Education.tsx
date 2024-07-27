@@ -1,6 +1,6 @@
 import Title from "@/components/title/Title";
 import style from "./style.module.css";
-import { education } from "@/data/education";
+import  education  from "@/public/data/education.json"
 import EducationItem from "@/components/education-item/EducationItem";
 
 export default function Education() {
