@@ -1,4 +1,4 @@
-import { Education } from "@/data/education";
+import { Education } from "@/types/types";
 import style from "./style.module.css";
 
 export default function EducationItem(education: Education) {
