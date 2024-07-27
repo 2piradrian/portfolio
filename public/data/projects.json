@@ -1,0 +1,269 @@
+[
+    {
+        "id": 0,
+        "title": "Ayudante de Santa",
+        "description": "Sistema de cultivos automatizados",
+        "technologies": ["KOTLIN", "COMPOSE", "TS", "NODEJS", "EXPRESS", "MONGODB", "C"],
+        "images": [
+            "/images/project-ads1.png",
+            "/images/project-ads2.png",
+            "/images/project-ads3.png"
+        ],
+        "links": [
+            {
+                "name": "Google Play Store",
+                "url": "https://play.google.com/store/apps/details?id=com.twopiradrian.ads"
+            },
+            {
+                "name": "Instagram",
+                "url": "https://www.instagram.com/ayudantedsok/"
+            }
+        ],
+        "structure": {
+            "longDescription": "Sistema de cultivos automatizados, con control de humedad, temperatura, luz, y riego.",
+            "elements": [
+                {
+                    "type": "title",
+                    "content": "Notas"
+                },
+                {
+                    "type": "text",
+                    "content": "Debido a que es un proyecto en desarrollo para ser comercializado, no se puede mostrar el código."
+                },
+                {
+                    "type": "text",
+                    "content": "En el proyecto tengo un socio, contador y gran amigo a quien admiro, con el cual abrimos una S.A.S., mientras que el se encarga de la parte legal y financiera, yo me encargo del desarrollo, y ambos trabajamos a la vez en la parte técnica física (soldadura, armado, empaquetado, etc.)."
+                },
+                {
+                    "type": "text",
+                    "content": "Actualmente tengo hecho el backend y la app con patrón repositorio y clean architecture."
+                },
+                {
+                    "type": "title",
+                    "content": "Aprendizaje"
+                },
+                {
+                    "type": "text",
+                    "content": "El proyecto me llevo de la mano, y me hizo enfrentarme a varios desafíos. Al tener que desarrollar el firmware del microcontrolador, me vi en la necesidad de aprender C, y al tener que desarrollar la app, me vi en la necesidad de aprender Kotlin y Compose. Ni hablar de arquitecturas limpias, y patrones de diseño, que me ayudaron a mejorar mi código y a hacerlo más mantenible. Sin duda, un proyecto que me hizo crecer como desarrollador y como persona."
+                },
+                {
+                    "type": "title",
+                    "content": "Estructura"
+                },
+                {
+                    "type": "text",
+                    "content": "Está estructurado en tres repositorios, uno para la app, otro para el backend, y otro para el firmware del microcontrolador."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-ads3.png",
+                    "description": "Estructura del proyecto"
+                },
+                {
+                    "type": "title",
+                    "content": "Producto"
+                },
+                {
+                    "type": "text",
+                    "content": "El producto consiste en un sistema de cultivos automatizados, con control de humedad, temperatura, luz, y riego. Con una app para controlar el sistema, y un backend para almacenar los datos y enviar notificaciones."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-ads2.png",
+                    "description": "Producto"
+                }
+            ]
+        }
+    },
+    {
+        "id": 1,
+        "title": "Botanist",
+        "description": "Red social de plantas",
+        "technologies": ["KOTLIN", "COMPOSE", "TS", "NODEJS", "EXPRESS", "MONGODB", "SQL"],
+        "images": [
+            "/images/project-botanist1.png",
+            "/images/project-botanist2.png",
+            "/images/project-botanist3.png",
+            "/images/project-botanist4.png"
+        ],
+        "links": [
+            {
+                "name": "Repositorio App",
+                "url": "https://github.com/2piradrian/botanist-app"
+            },
+            {
+                "name": "Repositorio Backend",
+                "url": "https://github.com/2piradrian/botanist-backend"
+            }
+        ],
+        "structure": {
+            "longDescription": "Red social con temática de plantas, donde los usuarios pueden compartir publicaciones de sus plantas o consejos y ver las de los demás.",
+            "elements": [
+                {
+					"type": "title",
+					"content": "Notas"
+				},
+				{
+					"type": "text",
+					"content":
+						"Es una especie de red social, apenas es un MVP pues me encantaría agregarle más funciones. Pero por ahora tiene un CRUD de plantas y de usuarios, y un sistema de likes y seguidos."
+				},
+				{
+					"type": "text",
+					"content": "Tanto el backend como el frontend fueron diseñados usando clean architecture y patrón repositorio."
+				},
+				{
+					"type": "title",
+					"content": "El backend"
+				},
+				{
+					"type": "text",
+					"content": "Del lado del servidor, tengo un backend hecho en Node.js (Express) que utiliza dos bases de datos."
+				},
+				{
+					"type": "text",
+					"content": "Esto surge de tomar el desafío que alguna vez un profesor de Spring Boot me dió: usar dos bases de datos en un solo backend, para esto usé MongoDB para la información de los usuarios y PostgreSQL para los posteos."
+				},
+				{
+					"type": "title",
+					"content": "El frontend"
+				},
+				{
+					"type": "text",
+					"content": "Del lado del usuario, cuento con una app en Android Nativo hecha con Kotlin (Jetpack Compose), aprovechando y siguiendo los lineamientos de Google para hacer un diseño adaptativo, es decir, esta app es compatible con dispositivos plegables y tablets."
+				},
+				{
+					"type": "title",
+					"content": "Diseño mobile"
+				},
+				{
+					"type": "image",
+					"content": "/images/project-botanist2.png",
+                    "description": "Diseño mobile"
+				},
+				{
+					"type": "title",
+					"content": "Diseño foldable"
+				},
+				{
+					"type": "image",
+					"content": "/images/project-botanist3.png",
+                    "description": "Diseño foldable"
+				},
+				{
+					"type": "title",
+					"content": "Diseño tablets"
+				},
+				{
+					"type": "image",
+					"content": "/images/project-botanist4.png",
+                    "description": "Diseño tablets"
+				}
+            ]
+        }
+    },
+    {
+        "id": 2,
+        "title": "Sistema Siete Colores",
+        "description": "Sistema de gestión de presupuestos y stock",
+        "technologies": ["TS", "REACT", "NODEJS", "EXPRESS", "MONGODB"],
+        "images": [
+            "/images/project-siete-colores1.png"
+        ],
+        "links": [
+            {
+                "name": "Repositorio Frontend",
+                "url": "https://github.com/2piradrian/siete-colores-system"
+            },
+            {
+                "name": "Repositorio Backend",
+                "url": "https://github.com/2piradrian/siete-colores-backend"
+            }
+        ],
+        "structure": {
+            "longDescription": "Sistema para gestionar productos para una empresa familiar de producción de herramientas para artesanía.",
+            "elements": [
+                {
+                    "type": "title",
+                    "content": "Notas"
+                },
+                {
+                    "type": "text",
+                    "content": "Es un sistema de gestión de productos, cálculo de cuentas frecuentes como porcentajes de aumentos, generación de presupuestos y estadísticas."
+                },
+                {
+                    "type": "title",
+                    "content": "El backend"
+                },
+                {
+                    "type": "text",
+                    "content": "Del lado del servidor, tengo un backend hecho en Node.js (Express) que utiliza una base de datos no relacional, con patron repositorio y clean architecture."
+                },
+                {
+                    "type": "title",
+                    "content": "El frontend"
+                },
+                {
+                    "type": "text",
+                    "content": "Del lado del usuario, cuento con una app en React que simplemente consume el backend."
+                },
+                {
+                    "type": "title",
+                    "content": "Aprendizaje"
+                },
+                {
+                    "type": "text",
+                    "content": "Este proyecto se ejecuta a través de un .bat, fue muy satisfactorio poder hacerlo. Además imprime los presupuestos en un formato personalizado, y genera un PDF con el presupuesto y el stock actualizado."
+                }
+            ]
+        }
+    },
+    {
+        "id": 3,
+        "title": "Siete Colores Web",
+        "description": "E-commerce de herramientas para artesanía",
+        "technologies": ["TS", "REACT"],
+        "images": [
+            "/images/project-siete-colores-web1.png"
+        ],
+        "links": [
+            {
+                "name": "Repositorio",
+                "url": "https://github.com/2piradrian/siete-colores-web"
+            },
+            {
+                "name": "Sitio Web",
+                "url": "https://sietecoloresweb3d.com.ar/"
+            }
+        ],
+        "structure": {
+            "longDescription": "E-commerce de herramientas para artesanía, con carrito de compras y sistema de pagos.",
+            "elements": [
+                {
+                    "type": "title",
+                    "content": "Notas"
+                },
+                {
+                    "type": "text",
+                    "content": "Es un e-commerce de herramientas para artesanía, con carrito de compras y finalización en whatsapp con su API."
+                },
+                {
+                    "type": "title",
+                    "content": "Aprendizaje"
+                },
+                {
+                    "type": "text",
+                    "content": "Este proyecto me permitió aprender a hacer un e-commerce desde cero, fue de mis primeros proyectos, por lo que ha pasado por bastantes cambios."
+                },
+                {
+                    "type": "title",
+                    "content": "Excepción"
+                },
+                {
+                    "type": "text",
+                    "content": "En lugar de consumir un api, lee desde un JSON porque el cliente lo prefería así."
+                }
+            ]
+        }
+    }
+]

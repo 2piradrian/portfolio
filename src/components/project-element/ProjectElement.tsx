@@ -1,7 +1,6 @@
-import { ProjectStructure } from "@/data/projects";
-import Image from "next/image";
 import React from "react";
 import style from "./style.module.css";
+import { ProjectStructure } from "@/types/types";
 
 type Props = {
 	structure: ProjectStructure;
@@ -14,7 +13,7 @@ function ProjectElement({ structure }: Props) {
 				switch (element.type) {
 					case "image":
 						return (
-							<Image
+							<img
 								src={element.content}
 								alt={element.alt!}
 								key={index}
