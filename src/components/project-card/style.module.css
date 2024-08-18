@@ -15,7 +15,7 @@
 .image {
 	width: 100%;
 	height: 260px;
-	object-fit: cover;
+	object-fit: contain;
 	border-radius: 16px 16px 0px 0px;
 	background-color: var(--background);
 }

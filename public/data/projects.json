@@ -57,7 +57,7 @@
                 {
                     "type": "image",
                     "content": "/images/project-ads3.png",
-                    "description": "Estructura del proyecto"
+                    "alt": "Estructura del proyecto"
                 },
                 {
                     "type": "title",
@@ -70,7 +70,7 @@
                 {
                     "type": "image",
                     "content": "/images/project-ads2.png",
-                    "description": "Producto"
+                    "alt": "Producto"
                 }
             ]
         }
@@ -139,7 +139,7 @@
 				{
 					"type": "image",
 					"content": "/images/project-botanist2.png",
-                    "description": "Diseño mobile"
+                    "alt": "Diseño mobile"
 				},
 				{
 					"type": "title",
@@ -148,7 +148,7 @@
 				{
 					"type": "image",
 					"content": "/images/project-botanist3.png",
-                    "description": "Diseño foldable"
+                    "alt": "Diseño foldable"
 				},
 				{
 					"type": "title",
@@ -157,7 +157,7 @@
 				{
 					"type": "image",
 					"content": "/images/project-botanist4.png",
-                    "description": "Diseño tablets"
+                    "alt": "Diseño tablets"
 				}
             ]
         }
@@ -214,6 +214,45 @@
                 {
                     "type": "text",
                     "content": "Este proyecto se ejecuta a través de un .bat, fue muy satisfactorio poder hacerlo. Además imprime los presupuestos en un formato personalizado, y genera un PDF con el presupuesto y el stock actualizado."
+                },
+                {
+                    "type": "title",
+                    "content": "Editor de productos"
+                },
+                {
+                    "type": "text",
+                    "content": "El sistema cuenta con un editor de productos, donde se pueden agregar, editar y eliminar productos."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores2.png",
+                    "alt": "Editor de productos"
+                },
+                {
+                    "type": "title",
+                    "content": "Editor de categorías"
+                },
+                {
+                    "type": "text",
+                    "content": "El sistema cuenta con un editor de categorías, donde se pueden agregar, editar y eliminar categorías."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores3.png",
+                    "alt": "Editor de categorías"
+                },
+                {
+                    "type": "title",
+                    "content": "Creador de presupuestos"
+                },
+                {
+                    "type": "text",
+                    "content": "El sistema es capaz de generar presupuestos, con un formato personalizado, y generar un PDF con el presupuesto."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores4.png",
+                    "alt": "Creador de presupuestos"
                 }
             ]
         }
