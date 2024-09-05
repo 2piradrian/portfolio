@@ -1,8 +1,9 @@
 {
     "list": [
-        ["HTML", "CSS", "JavaScript", "React.js", "Next.js"],
-	    ["TypeScript", "Node.js", "Express.js", "MongoDB", "PostgreSQL"],
-	    ["Java", "Kotlin", "Jetpack Compose"],
-	    ["Git", "GitHub", "Docker", "Linux", "Álgebra de Boole"]
+        ["HTML", "CSS", "JavaScript", "React.js"],
+	    ["TypeScript", "Node.js", "Express.js"],
+	    ["Java", "Kotlin", "Android Jetpack"],
+        ["NoSQL", "SQL"],
+	    ["Git", "Docker", "Linux", "Álgebra de Boole"]
     ]
 }
