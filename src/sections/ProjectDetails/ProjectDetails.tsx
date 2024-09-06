@@ -24,14 +24,6 @@ export default function ProjectDetails({ project }: Props) {
 					</div>
 				</div>
 				<img src={project.images[0]} alt={project.title} className={style.image} />
-				<div className={style.linkContainer}>
-					<h3 className={style.linksTitle}>Links:</h3>
-					{project.links.map((link) => (
-						<a href={link.url} className={style.link} key={link.name}>
-							{link.name}
-						</a>
-					))}
-				</div>
 				<div className={style.content}>
 					<ProjectElement structure={structure} />
 				</div>

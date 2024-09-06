@@ -26,3 +26,10 @@
 	font-size: 18px;
 	margin: 10px 0px;
 }
+
+.link {
+	font-size: 18px;
+	line-height: 50px;
+	font-weight: 700;
+	text-decoration: underline;
+}

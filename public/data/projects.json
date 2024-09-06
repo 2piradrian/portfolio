@@ -9,19 +9,23 @@
             "/images/project-ads2.png",
             "/images/project-ads3.png"
         ],
-        "links": [
-            {
-                "name": "Google Play Store",
-                "url": "https://play.google.com/store/apps/details?id=com.twopiradrian.ads"
-            },
-            {
-                "name": "Instagram",
-                "url": "https://www.instagram.com/ayudantedsok/"
-            }
-        ],
         "structure": {
             "longDescription": "Sistema de cultivos automatizados, con control de humedad, temperatura, luz, y riego.",
             "elements": [
+                {
+                    "type": "title",
+                    "content": "Links"
+                },
+                {
+                    "type": "link",
+                    "content": "Google Play Store",
+                    "url": "https://play.google.com/store/apps/details?id=com.twopiradrian.ads"
+                },
+                {
+                    "type": "link",
+                    "content": "Instagram",
+                    "url": "https://www.instagram.com/ayudantedsok/"
+                },
                 {
                     "type": "title",
                     "content": "Notas"
@@ -86,19 +90,23 @@
             "/images/project-botanist3.png",
             "/images/project-botanist4.png"
         ],
-        "links": [
-            {
-                "name": "Repositorio App",
-                "url": "https://github.com/2piradrian/botanist-app"
-            },
-            {
-                "name": "Repositorio Backend",
-                "url": "https://github.com/2piradrian/botanist-backend"
-            }
-        ],
         "structure": {
             "longDescription": "Red social con temática de plantas, donde los usuarios pueden compartir publicaciones de sus plantas o consejos y ver las de los demás.",
             "elements": [
+                {
+                    "type": "title",
+                    "content": "Links"
+                },
+                {
+                    "type": "link",
+                    "content": "Repositorio App",
+                    "url": "https://github.com/2piradrian/botanist-app"
+                },
+                {
+                    "type": "link",
+                    "content": "Repositorio Backend",
+                    "url": "https://github.com/2piradrian/botanist-backend"
+                },
                 {
 					"type": "title",
 					"content": "Notas"
@@ -170,19 +178,23 @@
         "images": [
             "/images/project-siete-colores1.png"
         ],
-        "links": [
-            {
-                "name": "Repositorio Frontend",
-                "url": "https://github.com/2piradrian/siete-colores-system"
-            },
-            {
-                "name": "Repositorio Backend",
-                "url": "https://github.com/2piradrian/siete-colores-backend"
-            }
-        ],
         "structure": {
             "longDescription": "Sistema para gestionar productos para una empresa familiar de producción de herramientas para artesanía.",
             "elements": [
+                {
+                    "type": "title",
+                    "content": "Links"
+                },
+                {
+                    "type": "link",
+                    "content": "Repositorio Frontend",
+                    "url": "https://github.com/2piradrian/siete-colores-system"
+                },
+                {
+                    "type": "link",
+                    "content": "Repositorio Backend",
+                    "url": "https://github.com/2piradrian/siete-colores-backend"
+                },
                 {
                     "type": "title",
                     "content": "Notas"
@@ -278,6 +290,20 @@
         "structure": {
             "longDescription": "E-commerce de herramientas para artesanía, con carrito de compras y sistema de pagos.",
             "elements": [
+                {
+                    "type": "title",
+                    "content": "Links"
+                },
+                {
+                    "type": "link",
+                    "content": "Repositorio",
+                    "url": "https://github.com/2piradrian/siete-colores-web"
+                },
+                {
+                    "type": "link",
+                    "content": "Sitio Web",
+                    "url": "https://sietecolores3d.com.ar/"
+                },
                 {
                     "type": "title",
                     "content": "Notas"

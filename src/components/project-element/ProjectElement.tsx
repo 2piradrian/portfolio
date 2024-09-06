@@ -32,6 +32,12 @@ function ProjectElement({ structure }: Props) {
 								{element.content}
 							</h2>
 						);
+					case "link":
+						return (
+							<a href={element.url} className={style.link} aria-label={element.alt}>
+								{element.content}
+							</a>
+						);
 					default:
 						return null;
 				}

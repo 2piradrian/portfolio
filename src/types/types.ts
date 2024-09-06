@@ -4,7 +4,6 @@ export type Project = {
 	description: string;
 	technologies: string[];
 	images: string[];
-	links: Link[];
 	structure: ProjectStructure;
 };
 
@@ -16,6 +15,7 @@ export type ProjectStructure = {
 export type StructureElement = {
 	type: string;
 	content: string;
+	url?: string;
 	alt?: string;
 };
 
