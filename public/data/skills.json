@@ -1,8 +1,8 @@
 {
     "list": [
-        ["HTML", "CSS", "JavaScript", "React.js"],
 	    ["TypeScript", "Node.js", "Express.js"],
-	    ["Java", "Kotlin", "Android Jetpack"],
+	    ["Java", "Kotlin", "Spring boot"],
+        ["HTML", "CSS", "JavaScript", "React.js"],
         ["NoSQL", "SQL"],
 	    ["Git", "Docker", "Linux", "Álgebra de Boole"]
     ]
