@@ -23,7 +23,7 @@ export default function ProjectDetails({ project }: Props) {
 						))}
 					</div>
 				</div>
-				<img src={project.images[0]} alt={project.title} className={style.image} />
+				{/* <img src={project.images[0]} alt={project.title} className={style.image} /> */}
 				<div className={style.content}>
 					<ProjectElement structure={structure} />
 				</div>

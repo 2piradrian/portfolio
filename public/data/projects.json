@@ -237,7 +237,12 @@
                 },
                 {
                     "type": "image",
-                    "content": "/images/project-siete-colores2.png",
+                    "content": "/images/project-siete-colores5.png",
+                    "alt": "Editor de productos"
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores7.png",
                     "alt": "Editor de productos"
                 },
                 {
@@ -265,6 +270,32 @@
                     "type": "image",
                     "content": "/images/project-siete-colores4.png",
                     "alt": "Creador de presupuestos"
+                },
+                {
+                    "type": "title",
+                    "content": "Estadísticas"
+                },
+                {
+                    "type": "text",
+                    "content": "El sistema cuenta con estadísticas generadas mes a mes."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores6.png",
+                    "alt": "Estadísticas"
+                },
+                {
+                    "type": "title",
+                    "content": "Herramientas"
+                },
+                {
+                    "type": "text",
+                    "content": "El sistema cuenta con herramientas para calcular porcentajes de aumentos, y para actualizar precios en cantidad."
+                },
+                {	
+                    "type": "image",
+                    "content": "/images/project-siete-colores2.png",
+                    "alt": "Herramientas"
                 }
             ]
         }
@@ -327,6 +358,50 @@
                 {
                     "type": "text",
                     "content": "En lugar de consumir un api, lee desde un JSON porque el cliente lo prefería así."
+                },
+                {
+                    "type": "title",
+                    "content": "Página de inicio"
+                },
+                {
+                    "type": "text",
+                    "content": "Catalogo web de productos, con un buscador y un carrito de compras."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores-web4.png",
+                    "alt": "Pagina de inicio"
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores-web3.png",
+                    "alt": "Pagina de inicio"
+                },
+                {
+                    "type": "title",
+                    "content": "Carrito de compras"
+                },
+                {
+                    "type": "text",
+                    "content": "El web cuenta con un carrito de compras, donde se pueden agregar y eliminar productos."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores-web2.png",
+                    "alt": "Carrito de compras"
+                },
+                {
+                    "type": "title",
+                    "content": "Lista de productos"
+                },
+                {
+                    "type": "text",
+                    "content": "El web cuenta con una lista de productos, donde se pueden ver los productos y agregarlos al carrito."
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-siete-colores-web3.png",
+                    "alt": "Lista de productos"
                 }
             ]
         }
