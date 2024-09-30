@@ -52,6 +52,30 @@
                 },
                 {
                     "type": "title",
+                    "content": "La aplicación"
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-ads5.png",
+                    "alt": "Aplicación"
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-ads4.png",
+                    "alt": "Aplicación"
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-ads6.png",
+                    "alt": "Aplicación"
+                },
+                {
+                    "type": "image",
+                    "content": "/images/project-ads7.png",
+                    "alt": "Aplicación"
+                },
+                {
+                    "type": "title",
                     "content": "Estructura"
                 },
                 {
