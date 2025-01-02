@@ -19,6 +19,10 @@ export default function Tech({ tech }: Props) {
 			return <Image src={getImagePath("redux")} alt="" />;
 		case "KOTLIN":
 			return <Image src={getImagePath("kotlin")} alt="" />;
+		case "JAVA":
+			return <Image src={getImagePath("java")} alt="" />;
+		case "SPRINGBOOT":
+			return <Image src={getImagePath("springboot")} alt="" />;
 		case "COMPOSE":
 			return <Image src={getImagePath("compose")} alt="" />;
 		case "FIREBASE":
@@ -29,6 +33,8 @@ export default function Tech({ tech }: Props) {
 			return <Image src={getImagePath("express")} alt="" />;
 		case "MONGODB":
 			return <Image src={getImagePath("mongodb")} alt="" />;
+		case "POSTGRESQL":
+			return <Image src={getImagePath("postgresql")} alt="" />;
 		default:
 			return <span>{tech}</span>;
 	}

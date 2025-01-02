@@ -107,7 +107,7 @@
         "id": 1,
         "title": "Botanist",
         "description": "Red social de plantas",
-        "technologies": ["KOTLIN", "COMPOSE", "TS", "NODEJS", "EXPRESS", "MONGODB", "SQL"],
+        "technologies": ["KOTLIN", "COMPOSE", "TS", "NODEJS", "EXPRESS", "MONGODB", "POSTGRESQL"],
         "images": [
             "/images/project-botanist1.png",
             "/images/project-botanist2.png",
@@ -413,6 +413,67 @@
                     "type": "image",
                     "content": "/images/project-siete-colores-web2.png",
                     "alt": "Carrito de compras"
+                }
+            ]
+        }
+    },
+    {
+        "id": 4,
+        "title": "Music Forum",
+        "description": "Backend con arquitectura de microservicios",
+        "technologies": ["SPRINGBOOT", "POSTGRESQL", "MONGODB", "JAVA"],
+        "images": [
+            "/images/project-music-forum1.png"
+        ],
+        "links": [
+            {
+                "name": "Repositorio",
+                "url": "https://github.com/2piradrian/music-forum-microservices"
+            }
+        ],
+        "structure": {
+            "longDescription": "Backend con arquitectura de microservicios, para un foro de música.",
+            "elements": [
+                {
+                    "type": "title",
+                    "content": "Links"
+                },
+                {
+                    "type": "link",
+                    "content": "Repositorio",
+                    "url": "https://github.com/2piradrian/music-forum-microservices"
+                },
+                {
+                    "type": "title",
+                    "content": "Notas"
+                },
+                {
+                    "type": "text",
+                    "content": "El proyecto es solo backend, implementando microservicios con Spring Boot & Spring Cloud, MongoDB y PostgreSQL."
+                },
+                {
+                    "type": "title",
+                    "content": "Arquitectura"
+                },
+                {
+                    "type": "text",
+                    "content": "Utilicé Clean Architecture en el desarrollo independiente de cada microservicio. Además hice una librería de utilidades para compartir entre los microservicios."
+                },
+                {
+                    "type": "title",
+                    "content": "Microservicios críticos"
+                },
+                {
+                    "type": "text",
+                    "content": "El primero es el 'registry-server' que es el servidor de registro de los microservicios, pensado para que los microservicios puedan registrarse y descubrirse entre ellos. Luego está el 'gateway-server' que es el servidor de puerta de enlace, que es el encargado de enrutar las peticiones a los microservicios correspondientes."
+                },
+                {
+                    "type": "title",
+                    "content": "Microservicios de funcionalidad"
+                },
+                {
+                    "type": "text",
+                    "content": "Luego, los que resuelven el problema de dominio, y brindan la lógica de negocio a la app son 4 microservicios que son 'auth-service', 'forum-service' y 'report-server'. Estos resuelven la autenticación, el foro y comentarios de los mismos, y los reportes respectivamente."
                 }
             ]
         }
